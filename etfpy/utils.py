@@ -34,7 +34,7 @@ def get_headers() -> Dict:
         "User-Agent": user_agent_rotator.get_random_user_agent(),
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,"
         "image/avif,image/webp,image/apng,*/*;q=0.8",
-        "Accept-Encoding": "gzip, deflate, br",
+        # "Accept-Encoding": "gzip, deflate, br",
         "Connection": "keep-alive",
     }
 
